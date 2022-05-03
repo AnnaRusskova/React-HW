@@ -1,0 +1,45 @@
+.container {
+  padding: 30px 40px;
+}
+
+.header, .footer {
+  background-color: rgb(190, 172, 197);
+  color:rgb(73, 34, 88);
+  font-weight: 700;
+}
+
+.header-row, .header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  width: 200px;
+  list-style: none;
+}
+
+.main {
+  width: 930px;
+}
+
+.main-header {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 36px;
+  color:rgb(73, 34, 88)
+}
+
+.main-header>p {
+  padding-bottom: 15px;
+}
+
+.footer-info>div {
+  padding-bottom: 12px;
+}
+
+.footer-data {
+  font-size: 14px;
+  padding-top: 30px;
+  text-align: center;
+}
